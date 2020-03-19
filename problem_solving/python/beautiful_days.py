@@ -14,7 +14,7 @@ def beautiful_days(i, j, k):
         k (iut): number k to divide into to determine if it is a beautiful day
 
     Returns:
-        (int): number of beautiful days between i and j
+        int: number of beautiful days between i and j
     """
     beautiful_days_count = 0
     for day in xrange(i, j + 1):
