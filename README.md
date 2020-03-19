@@ -15,4 +15,4 @@ Here's a link to my [Hackerrank Profile](https://www.hackerrank.com/kevin_chaohw
 
 ### LinkedIn
 
-<img align="right" width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/220px-Linkedin.svg.png">Here is a link to my [LinkedIn Profile](https://www.linkedin.com/in/kevincchang/)
+<img align="left" width="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/220px-Linkedin.svg.png">Here is a link to my [LinkedIn Profile](https://www.linkedin.com/in/kevincchang/)
