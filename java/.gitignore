@@ -1,0 +1,4 @@
+# Eclipse java project ignores
+/bin/
+.project
+.classpath
