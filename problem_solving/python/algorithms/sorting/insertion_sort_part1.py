@@ -10,7 +10,7 @@ def insertion_sort1(n, arr):
     Returns:
         None: Does not return any data but prints out the status of the array as we are pushing elements back to sort
     """
-    val = arr[(len(arr)-1)]
+    val = arr[-1]
     done = False
     for i in reversed(range(1, len(arr))):
         if arr[i-1] > val:
@@ -18,12 +18,12 @@ def insertion_sort1(n, arr):
         else:
             arr[i] = val
             done = True
-        print(" ".join(map(str, arr)))
+        print(*arr)
         if done:
             break
     if arr[0] > val:
         arr[0] = val
-        print(" ".join(map(str, arr)))
+        print(*arr)
 
 
 if __name__ == "__main__":
