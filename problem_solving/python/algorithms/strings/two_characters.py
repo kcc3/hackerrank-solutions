@@ -46,7 +46,7 @@ def alternate(s):
 
 
 if __name__ == "__main__":
-    # print(alternate("beabeefeabx"))
-    # print(alternate("asvkugfiugsalddlasguifgukvsa"))
-    # print(alternate("a"))
-    print(alternate("aaaaa"))
+    assert alternate("beabeefeabx") == 5
+    assert alternate("asvkugfiugsalddlasguifgukvsa") == 0
+    assert alternate("a") == 0
+    assert alternate("aaaaa") == 0
