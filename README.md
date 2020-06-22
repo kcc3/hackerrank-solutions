@@ -11,7 +11,7 @@ This repo is for the problem solving and other challenges code that I write on h
 
 ### Hackerrank
 
-Here's a link to my [Hackerrank Profile](https://www.hackerrank.com/kevin_chaohwa_c1)
+Here's a link to my [Hackerrank Profile](https://www.hackerrank.com/kevin_c_chang)
 
 ### LinkedIn
 
