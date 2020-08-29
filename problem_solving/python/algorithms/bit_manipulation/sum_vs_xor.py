@@ -1,14 +1,29 @@
 def sum_xor(n):
-    # Find the max value it could be:
-    m = 1
-    while m < n:
-        m *= 2
-    # Iterate through and see which values satisfy sum and xor being equal
-    sum_xor_equal = 0
-    for i in range(m):
-        if n + i == n ^ i:
-            sum_xor_equal += 1
-    return sum_xor_equal
+    """Hackerrank Problem: https://www.hackerrank.com/challenges/sum-vs-xor/problem
+
+    Given an integer n, find each x such that:
+
+    0 <= x <= n
+    n + x = n ^ x
+
+    Solve:
+        We count the number of zeros that are in the binary representation of the integer, because for sum and xor to be
+        equal, it occurs when there are 0s in the digit where an XOR would return a 1, and an addition would return a 1
+        as well.  For example: for the integer "10", which is binary "1010", if you add or XOR 1, you would end up with
+        "1011" for both, because of the least significant 0 being flipped to a 1. We then return the total combinations
+        of these values, which is 2^(number of zeros)
+
+    Args:
+        n (int): Integer to check
+
+    Returns:
+        int: The total number of integers that satisfy the sum = xor problem
+    """
+    if n == 0:
+        return 1
+    bin = "{0:b}".format(n)
+    zeros = bin.count("0")
+    return pow(2, zeros)
 
 
 if __name__ == "__main__":
